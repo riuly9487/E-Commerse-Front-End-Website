@@ -15,7 +15,7 @@ body {
     padding: 0 20px 0 20px;
     margin-bottom: 10px;
     height: 80px;
-    font-size: 48px;
+    font-size: 32px;
     text-wrap: nowrap;
     color: #5D4037;
 }
@@ -30,7 +30,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-bottom: 15px;
-    font-size: 36px;
+    font-size: 24px;
     text-wrap: nowrap;
 }
 
@@ -58,7 +58,7 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 20px;
-    font-size: 18px;
+    font-size: 16px;
     color: white;
 }
 
@@ -69,7 +69,7 @@ body {
     background-color: #EBDDC6;
     padding: 0 20px 0 20px;
     height: 80px;
-    font-size: 24px;
+    font-size: 16px;
     text-wrap: nowrap;
     color: #5D4037;
 }
@@ -79,3 +79,4 @@ a:hover, a:visited, a:link, a:active
     color: inherit;
     text-decoration: none;
 }
+
