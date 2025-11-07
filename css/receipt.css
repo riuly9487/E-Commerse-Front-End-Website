@@ -1,0 +1,70 @@
+.website-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 36px;
+}
+
+.website-receipt-interface {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    background-color: #ffe0d3;
+    padding: 20px 20px;
+    margin-bottom: 50px;
+    width: 500px;
+}
+
+.receipt-order-time, .receipt-reference-number,
+.receipt-total-price, .receipt-discounted-price,
+.receipt-total-discounted-price, .receipt-final-price {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.receipt-product-detail {
+    display: grid;
+    grid-template-columns: 40% 20% 20% 20%;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+}
+
+.receipt-terima-kasih, .receipt-disclaimer,
+.receipt-qr-code-section, .assignment-declaration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.receipt-company-name {
+    font-size: 40px;
+}
+
+.receipt-product-name {
+    justify-self: start;
+}
+
+.receipt-product-total {
+    justify-self: end;
+}
+
+.receipt-product-total, .receipt-total-price,
+.receipt-discounted-price, .receipt-total-discounted-price {
+    margin-bottom: 8px;
+}
+
+.receipt-company-owner, .receipt-order-time,
+.receipt-reference-number, .receipt-product-detail,
+.receipt-final-price, .receipt-terima-kasih,
+.receipt-qr-code, .receipt-disclaimer {
+    margin-bottom: 32px;
+}
+
+.receipt-qr-code {
+    width: 200px;
+}
+

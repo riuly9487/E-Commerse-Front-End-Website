@@ -1,0 +1,81 @@
+body {
+    background-color: #FAF7F2;
+    margin: 0;
+    font-family: Momo Trust Display, Arial, sans-serif;
+}
+
+.website-header {
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EBDDC6;
+    box-shadow: 0 2px 10px #e6cea7;
+    padding: 0 20px 0 20px;
+    margin-bottom: 10px;
+    height: 80px;
+    font-size: 48px;
+    text-wrap: nowrap;
+    color: #5D4037;
+}
+
+.shopping-cart {
+    cursor: pointer;
+}
+
+.website-annoucements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 36px;
+    text-wrap: nowrap;
+}
+
+.website-annoucements-offers-1 {
+    margin-bottom: 10px;
+}
+
+.website-annoucements-offers-1, .website-annoucements-offers-2 {
+    transition: color 0.5s;
+    cursor: pointer;
+}
+
+.website-annoucements-offers-1:hover, .website-annoucements-offers-2:hover {
+    color: #A3C6A8;
+}
+
+.cart-notification.isOn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 18px;
+    color: white;
+}
+
+.website-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EBDDC6;
+    padding: 0 20px 0 20px;
+    height: 80px;
+    font-size: 24px;
+    text-wrap: nowrap;
+    color: #5D4037;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    color: inherit;
+    text-decoration: none;
+}
