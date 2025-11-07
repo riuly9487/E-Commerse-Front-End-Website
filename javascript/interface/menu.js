@@ -19,7 +19,7 @@ export function exportMenuList () {
 
     const getHTML = `
             <div class="product-menu product-${product.id}">
-                <img class="product-image" src="../../${product.image}">
+                <img class="product-image" src="${product.image}">
                     <div class="product-name">
                         ${product.name}
                     </div>
@@ -64,3 +64,4 @@ export function exportMenuList () {
     )
 
 }
+
